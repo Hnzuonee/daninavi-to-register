@@ -3,48 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Daniela Mahmood — Oficiální odkazy</title>
+  <title>Pamlsek Blog – Vše o pejscích</title>
 
   <style>
-    body{
-      font-family:Arial, sans-serif;
-      background:#10151c url('foto.jpg') center/cover no-repeat;
-      display:flex;justify-content:center;align-items:center;
-      min-height:100vh;margin:0;color:#fff;
+    :root{
+      --accent:#ff7c33;
+      --bg:#fafafa;
     }
-    .wrap{width:100%;max-width:340px;text-align:center}
-    .btn{
-      display:block;width:100%;padding:16px;margin:10px 0;
-      font-size:20px;font-weight:bold;border:none;border-radius:16px;
-      color:#fff;text-decoration:none;cursor:pointer;transition:.15s;
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial, sans-serif;background:var(--bg);color:#222;line-height:1.6}
+    header{
+      background:linear-gradient(135deg,#ffae62 0%,var(--accent) 100%);
+      color:#fff;padding:60px 20px;text-align:center;
     }
-    .btn:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.35)}
-    .tiktok {background:#000;}
-    .twitter{background:#1d9bf0;}
-    .vip{
-      background:linear-gradient(90deg,#ffb86c 0%,#ff5e98 100%);
-    }
+    header h1{font-size:34px;font-weight:700;margin-bottom:6px}
+    header p{font-size:17px;opacity:.9}
+    .container{max-width:760px;margin:40px auto;padding:0 20px}
+    article{background:#fff;border-radius:14px;padding:26px;margin-bottom:28px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+    article h2{color:var(--accent);margin-bottom:12px;font-size:24px}
+    article img{width:100%;border-radius:12px;margin:14px 0}
+    footer{text-align:center;font-size:14px;color:#777;padding:40px 10px}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <!-- TikTok -->
-    <a href="https://www.tiktok.com/@daniela.navida"
-       class="btn tiktok" target="_blank" rel="noopener">
-       🎶 TikTok
-    </a>
 
-    <!-- X / Twitter -->
-    <a href="https://x.com/Daniela_mahmood"
-       class="btn twitter" target="_blank" rel="noopener">
-       🐦 X (Twitter)
-    </a>
+<header>
+  <h1>Pamlsek Blog</h1>
+  <p>Tipy, radosti a pečující rituály pro šťastné pejsky 🐾</p>
+</header>
 
-    <!-- VIP – pouze odkaz na druhou doménu -->
-    <a href="https://daniviplink.com"  <!-- změň na svou “newly” doménu -->
-       class="btn vip">
-       💎 Moje VIP stránka
-    </a>
-  </div>
+<main class="container">
+  <!-- Článek 1 -->
+  <article>
+    <h2>5 her, které zabaví štěně na deštivý den</h2>
+    <p>Interaktivní hlavolamy, krabice s dírkami a jednoduché čichací
+       hry udrží hlavičku vašeho štěněte v chodu i když venku prší.
+       V článku najdete návody krok za krokem…</p>
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=800&q=80" alt="štěně hrající si s hlavolamem">
+  </article>
+
+  <!-- Článek 2 -->
+  <article>
+    <h2>Domácí pamlsky: lososové kostičky ze 3 ingrediencí</h2>
+    <p>Recept je rychlý: konzerva lososa, ovesné vločky a vajíčko.
+       Zamícháš, vyválíš, vykrojíš a pečeš 20 minut. Psi je milují a
+       neobsahují žádné konzervanty…</p>
+    <img src="https://images.unsplash.com/photo-1601758123927-1962c9cd2db7?auto=format&fit=crop&w=800&q=80" alt="mísa domácích pamlsků">
+  </article>
+
+  <!-- Článek 3 -->
+  <article>
+    <h2>Proč je socializace do 16 týdnů klíčová?</h2>
+    <p>Seznamování štěněte s různými lidmi, zvuky a prostředími
+       minimalizuje riziko strachu v dospělosti. Přinášíme check‑list
+       situací, které by měl každý malý psík bezpečně zažít…</p>
+    <img src="https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=800&q=80" alt="štěně na procházce ve městě">
+  </article>
+</main>
+
+<footer>
+  © 2025 Pamlsek Blog&nbsp;|&nbsp;Všechny fotografie Unsplash&nbsp;|&nbsp;Kontakt: hello@pamlsek.blog
+</footer>
+
 </body>
 </html>
